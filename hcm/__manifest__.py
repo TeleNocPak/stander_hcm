@@ -1,0 +1,23 @@
+{
+    'name': "HCM",
+    'version': '12.0.1.0.0',
+    'summary': """GOSI Contribution for Saudi Government""",
+    'description': """GOSI Contribution for Saudu Government From Employee and Company""",
+    'category': 'Human Resources',
+    'author': 'TELENOC',
+    'company': 'TELENOC',
+    'website': "https://www.telenoc.org",
+    'depends': ['base', 'hr', 'hr_payroll'],
+    'data': [
+             'views/gosi_view.xml',
+             'views/sequence.xml',
+             'views/employee_creation_from_user_view.xml',
+             'data/rule.xml',
+             'security/ir.model.access.csv',
+            ],
+    'demo': [],
+    'images': ['static/description/banner.jpg'],
+    'license': "AGPL-3",
+    'installable': True,
+    'application': True,
+}
